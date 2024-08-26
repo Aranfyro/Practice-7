@@ -12,7 +12,8 @@ print ('Отсутсвующий ключ: ', my_dict.get('Carl'))
 my_dict.update ({'Nathon' : 2001, 'Alexa' : 2002})
 
 #Удаление пар
-del my_dict ['Michael']
+a = my_dict.pop('Michael')
+print ('Удаленная пара: ', a)
 print ('Конечный словарь: ', my_dict)
 
 my_set = {1, 2, 3, 'a', 'b', 'c', 1, 2, 3, 'a', 'b', 'c'}
